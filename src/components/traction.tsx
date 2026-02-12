@@ -61,7 +61,6 @@ export function Traction() {
             <FadeIn key={s.label}>
               <StatCard
                 target={s.target}
-                prefix={s.prefix}
                 suffix={s.suffix}
                 label={s.label}
                 active={inView}
